@@ -61,7 +61,7 @@ h3 {
 
 h4 {  
   font-size: 18px;
-  color: $gray;
+  color: $red;
 }
 
 p {
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $white;
   }
 }
 
@@ -112,16 +112,16 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $red;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: $red;
   background: $lightGray;
 }
 ::selection {
-  color: $black;
+  color: $red;
   background: $lightGray;
 }
 
